@@ -1,0 +1,24 @@
+body
+{
+	text-align: center;
+    font-family:  'Dongle', sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(169, 244, 228);
+}
+span
+{
+	font-size: 18px;
+	color: orangered;
+}
+canvas
+{
+	background: rgb(145, 16, 16);
+	animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{border: 3px red dotted; border-radius:0px;}
+    to{border: 8px #9aa1f4 dotted; border-radius:20px;}
+}
